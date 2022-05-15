@@ -155,3 +155,150 @@ body {
     opacity: 1;
 }
 
+
+#btn1:checked ~ .nav .menu .menu__point #sld1,
+#btn2:checked ~ .nav .menu .menu__point #sld2,
+#btn3:checked ~ .nav .menu .menu__point #sld3,
+#btn4:checked ~ .nav .menu .menu__point #sld4,
+#btn5:checked ~ .nav .menu .menu__point #sld5,
+#btn6:checked ~ .nav .menu .menu__point #sld6,
+#btn7:checked ~ .nav .menu .menu__point #sld7,
+#btn8:checked ~ .nav .menu .menu__point #sld8,
+#btn9:checked ~ .nav .menu .menu__point #sld9 {
+    background: #ffa;
+    opacity: 1;
+}
+
+#btn1:checked ~ .nav .menu .menu__point #round1,
+#btn2:checked ~ .nav .menu .menu__point #round2,
+#btn3:checked ~ .nav .menu .menu__point #round3,
+#btn4:checked ~ .nav .menu .menu__point #round4,
+#btn5:checked ~ .nav .menu .menu__point #round5,
+#btn6:checked ~ .nav .menu .menu__point #round6,
+#btn7:checked ~ .nav .menu .menu__point #round7,
+#btn8:checked ~ .nav .menu .menu__point #round8,
+#btn9:checked ~ .nav .menu .menu__point #round9 {
+    opacity: 1;
+}
+
+
+.arrows__last,
+.arrows__next {
+    width: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    width: 100%;
+    font-size: 3rem;
+    color: #ffa;
+    cursor: pointer;
+    display: none;
+    opacity: 0.4;
+    transition: all .2s ease-in;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+#btn1:checked ~ .content .arrows__last #arrow-1,
+#btn2:checked ~ .content .arrows__last #arrow-2,
+#btn3:checked ~ .content .arrows__last #arrow-3,
+#btn4:checked ~ .content .arrows__last #arrow-4,
+#btn5:checked ~ .content .arrows__last #arrow-5,
+#btn6:checked ~ .content .arrows__last #arrow-6,
+#btn7:checked ~ .content .arrows__last #arrow-7,
+#btn8:checked ~ .content .arrows__last #arrow-8,
+#btn9:checked ~ .content .arrows__last #arrow-9 {
+    display: flex;
+}
+
+#btn1:checked ~ .content .arrows__next #arrow-1,
+#btn2:checked ~ .content .arrows__next #arrow-2,
+#btn3:checked ~ .content .arrows__next #arrow-3,
+#btn4:checked ~ .content .arrows__next #arrow-4,
+#btn5:checked ~ .content .arrows__next #arrow-5,
+#btn6:checked ~ .content .arrows__next #arrow-6,
+#btn7:checked ~ .content .arrows__next #arrow-7,
+#btn8:checked ~ .content .arrows__next #arrow-8,
+#btn9:checked ~ .content .arrows__next #arrow-9 {
+    display: flex;
+}
+
+
+#btn1:checked ~ .content .wrapper .slider {
+    margin-left: 0;
+}
+
+#btn2:checked ~ .content .wrapper .slider {
+    margin-left: -100%;
+}
+
+#btn3:checked ~ .content .wrapper .slider {
+    margin-left: -200%;
+}
+
+#btn4:checked ~ .content .wrapper .slider {
+    margin-left: -300%;
+}
+
+#btn5:checked ~ .content .wrapper .slider {
+    margin-left: -400%;
+}
+
+#btn6:checked ~ .content .wrapper .slider {
+    margin-left: -500%;
+}
+
+#btn7:checked ~ .content .wrapper .slider {
+    margin-left: -600%;
+}
+
+#btn8:checked ~ .content .wrapper .slider {
+    margin-left: -700%;
+}
+
+#btn9:checked ~ .content .wrapper .slider {
+    margin-left: -800%;
+}
+
+
+#btn1:checked ~ .nav .text .text-slider {
+    margin-top: -24rem;
+}
+
+#btn2:checked ~ .nav .text .text-slider {
+    margin-top: -21rem;
+}
+
+#btn3:checked ~ .nav .text .text-slider {
+    margin-top: -18rem;
+}
+
+#btn4:checked ~ .nav .text .text-slider {
+    margin-top: -15rem;
+}
+
+#btn5:checked ~ .nav .text .text-slider {
+    margin-top: -12rem;
+}
+
+#btn6:checked ~ .nav .text .text-slider {
+    margin-top: -9rem;
+}
+
+#btn7:checked ~ .nav .text .text-slider {
+    margin-top: -6rem;
+}
+
+#btn8:checked ~ .nav .text .text-slider {
+    margin-top: -3rem;
+}
+
+#btn9:checked ~ .nav .text .text-slider {
+    margin-top: 0;
+}
