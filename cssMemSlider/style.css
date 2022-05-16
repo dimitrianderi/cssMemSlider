@@ -98,7 +98,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #ffa;
     cursor: default;
-    text-align: justify;
     opacity: .8;
 }
 
@@ -399,6 +398,9 @@ body {
 }
 
 @media only screen and (max-width: 439.9px) {
+    .text__item {
+        font-size: 0.8rem;
+    }
     .content {
         height: auto;
         display: flex;
