@@ -149,6 +149,10 @@ body {
     opacity: 1;
 }
 
+.menu__point:active > .menu__point-round > .menu__point-miniround {
+    background: #fff;
+}
+
 .slider__btn-button:focus {
     background: #fff;
     opacity: 1;
