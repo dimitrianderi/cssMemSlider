@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Meme Slider</title>
+</head>
+<body>
+    <div class='container'>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn1' checked>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn2'>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn3'>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn4'>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn5'>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn6'>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn7'>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn8'>
+        <input class='slider__btn-button' type='radio' name='btn' id='btn9'>
+
+        <div class='content'>
+            <div class='arrows__last'>
+                    <label for=btn9 class='arrow' id='arrow-1'>&#9668</label>
+                    <label for=btn1 class='arrow' id='arrow-2'>&#9668</label>
+                    <label for=btn2 class='arrow' id='arrow-3'>&#9668</label>
+                    <label for=btn3 class='arrow' id='arrow-4'>&#9668</label>
+                    <label for=btn4 class='arrow' id='arrow-5'>&#9668</label>
+                    <label for=btn5 class='arrow' id='arrow-6'>&#9668</label>
+                    <label for=btn6 class='arrow' id='arrow-7'>&#9668</label>
+                    <label for=btn7 class='arrow' id='arrow-8'>&#9668</label>
+                    <label for=btn8 class='arrow' id='arrow-9'>&#9668</label>
+                </div>
+            <div class='wrapper'>
+                <div class='slider'>
+                    <div class='slider__slide' id='slide-1'><img class='slider__slide-img' src='img/start.jpg' alt='meme'></div>
+                    <div class='slider__slide' id='slide-2'><img class='slider__slide-img' src='img/1.jpg' alt='meme'></div>
+                    <div class='slider__slide' id='slide-3'><img class='slider__slide-img' src='img/2.jpg' alt='meme'></div>
+                    <div class='slider__slide' id='slide-4'><img class='slider__slide-img' src='img/3.jpg' alt='meme'></div>
+                    <div class='slider__slide' id='slide-5'><img class='slider__slide-img' src='img/4.jpg' alt='meme'></div>
+                    <div class='slider__slide' id='slide-6'><img class='slider__slide-img' src='img/5.jpg' alt='meme'></div>
+                    <div class='slider__slide' id='slide-7'><img class='slider__slide-img' src='img/6.jpg' alt='meme'></div>
+                    <div class='slider__slide' id='slide-8'><img class='slider__slide-img' src='img/7.jpg' alt='meme'></div>
+                    <div class='slider__slide' id='slide-9'><img class='slider__slide-img' src='img/finish.jpg' alt='meme'></div>
+                </div>
+            </div>
+            <div class='arrows__next'>
+                <label for=btn2 class='arrow' id='arrow-1'>&#9658</label>
+                <label for=btn3 class='arrow' id='arrow-2'>&#9658</label>
+                <label for=btn4 class='arrow' id='arrow-3'>&#9658</label>
+                <label for=btn5 class='arrow' id='arrow-4'>&#9658</label>
+                <label for=btn6 class='arrow' id='arrow-5'>&#9658</label>
+                <label for=btn7 class='arrow' id='arrow-6'>&#9658</label>
+                <label for=btn8 class='arrow' id='arrow-7'>&#9658</label>
+                <label for=btn9 class='arrow' id='arrow-8'>&#9658</label>
+                <label for=btn1 class='arrow' id='arrow-9'>&#9658</label>
+            </div>
+        </div>
+
+        <div class="nav">
+            <div class='text'>
+                <div class='text-slider'>
+                    <p class='text__item' id='text-1'>It's a fiasco, bro.</p>
+                    <p class='text__item' id='text-2'>He will no longer be allowed into Kyrgyzstan</p>
+                    <p class='text__item' id='text-3'>Let me go! I won't do that again!</p>
+                    <p class='text__item' id='text-4'>No comments</p>
+                    <p class='text__item' id='text-5'>Hunting to make a fuss...</p>
+                    <p class='text__item' id='text-6'>Good toastmaster and interesting contests</p>
+                    <p class='text__item' id='text-7'>Meanwhile in Kyrgyzstan...</p>
+                    <p class='text__item' id='text-8'>City Day, Tolyan. It's time to Kyrgyzstan!</p>
+                    <p class='text__item' id='text-9'>Now you will see memes</p>
+                </div>
+            </div>
+
+            <div class='menu'>
+                <label class='menu__point' for='btn1'>
+                    <span class='menu__point-round' id=round1><span class='menu__point-miniround' id='sld1'></span></span>
+                </label>
+                <label class='menu__point' for='btn2'>
+                    <span class='menu__point-round' id=round2><span class='menu__point-miniround' id='sld2'></span></span>
+                </label>
+                <label class='menu__point' for='btn3'>
+                    <span class='menu__point-round' id=round3><span class='menu__point-miniround' id='sld3'></span></span>
+                </label>
+                <label class='menu__point' for='btn4'>
+                    <span class='menu__point-round' id=round4><span class='menu__point-miniround' id='sld4'></span></span>
+                </label>
+                <label class='menu__point' for='btn5'>
+                    <span class='menu__point-round' id=round5><span class='menu__point-miniround' id='sld5'></span></span>
+                </label>
+                <label class='menu__point' for='btn6'>
+                    <span class='menu__point-round' id=round6><span class='menu__point-miniround' id='sld6'></span></span>
+                </label>
+                <label class='menu__point' for='btn7'>
+                    <span class='menu__point-round' id=round7><span class='menu__point-miniround' id='sld7'></span></span>
+                </label>
+                <label class='menu__point' for='btn8'>
+                    <span class='menu__point-round' id=round8><span class='menu__point-miniround' id='sld8'></span></span>
+                </label>
+                <label class='menu__point' for='btn9'>
+                    <span class='menu__point-round' id=round9><span class='menu__point-miniround' id='sld9'></span></span>
+                </label>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
